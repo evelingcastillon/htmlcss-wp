@@ -134,6 +134,11 @@ h2 {
 
 /* Site footer */
 footer {
-    background-color: teal;
     height: 50px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px ;
+}
+.heart {
+    color: red;
 }
