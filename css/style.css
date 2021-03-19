@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightslategray;
 }
 
 .container{
@@ -12,7 +14,6 @@
 /* Site Header */
 header{
     height: 500px;
-    background-color: aquamarine;
 }
 .logo{
     background-image: url(../img/logo.png);
@@ -21,7 +22,13 @@ header{
     height: 50px;
     margin-bottom: 20px;
 }
-
+.links {
+    margin-bottom: 20px ;
+}
+a {
+    text-decoration: none;
+    padding: 2px;
+}
 .banner {
     margin-top: 10px;
     background-image: url(../img/banner.jpg);
@@ -30,6 +37,24 @@ header{
     height: 400px;
     border-radius: 10px;
 }
+.banner_box{
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 10px;
+    height: 100%;
+    padding: 2rem;
+}
+.box_text_header{
+    padding-top: 220px;
+}
+.title, .text {
+    color: white;
+    padding-right: 50px ;
+}
+
+.title {
+    font-size: 25px;
+}
+
 
 /* site main */
 
